@@ -21,5 +21,6 @@
     <string name="title_activity_sign_up">Inscription</string>
 
     <string name="action_save">Enregistrer</string>
+    <string name="title_activity_bla">Bla</string>
 
 </resources>

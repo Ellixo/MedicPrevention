@@ -23,10 +23,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Bla"
-            android:label="@string/title_activity_bla" >
-        </activity>
-        <activity
             android:name=".SignUp"
             android:label="@string/title_activity_sign_up"
             android:theme="@style/AppTheme.NoActionBar" >
