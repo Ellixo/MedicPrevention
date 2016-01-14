@@ -65,6 +65,46 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:text="Nom : "
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Prénom : "
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/surname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
                 android:text="Année de naissance : "
                 android:gravity="center"
                 />

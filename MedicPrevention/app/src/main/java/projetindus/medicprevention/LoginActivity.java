@@ -56,10 +56,12 @@ public class LoginActivity extends AppCompatActivity{
 
 
         bsignin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-              // coder la fonction de connection avec la recherche dans la Base de données
-            }
+            // coder la fonction de connection avec la recherche dans la Base de données
+
+           @Override
+           public void onClick(View v) {
+               startActivity(new Intent(LoginActivity.this, Calendrier.class));
+           }
         });
 
         bsignup.setOnClickListener(new View.OnClickListener() {

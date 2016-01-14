@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_calendrier"
+            android:icon="@drawable/calendrier"
+            android:title="Calendrier" />
+
+        <item android:id="@+id/nav_antecedents"
+            android:icon="@drawable/antecedent"
+            android:title="Antecedents" />
+
+        <item android:id="@+id/nav_Vaccins"
+            android:icon="@drawable/vaccin"
+            android:title="Vaccins" />
+
+        <item android:id="@+id/nav_Fiche"
+            android:icon="@drawable/fiche"
+            android:title="Fiche patient" />
+
+        <item android:id="@+id/nav_Paremetres"
+            android:icon="@drawable/setting"
+            android:title="Paramètres" />
+    </group>
+</menu>
